@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>
+CONTACT
+</title>
+</head>
+<script>
+function myFunction() 
+{
+    var person =document.getElementById("mytext").value;
+    if (person != null) 
+{
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! your info has been stored";
+ }
+else
+{
+alert("enter the details");
+}
+}
+</script>
+<body background="contact/123.jpg">
+<style>
+
+body
+{
+font-family:Constantia;
+}
+h1
+{
+color:red;
+}
+p
+{
+color:#66ff66;
+font-size:20;
+}
+h2
+{
+color:yellow;
+}
+</style>
+<center>
+<h1>
+WELCOME TO THE CONTACT US PAGE
+</h1>
+<hr>
+<h2>
+THE STUDY CENTER LIBRARY
+</h2>
+<p>
+A-302,
+<br>
+SUN VISION LEGACY,
+<br>
+DIXIT ROAD,
+<br>
+VILE PARLE(EAST),
+<br>
+MUMBAI-400057.
+<br>
+</p>
+<h2>TELEPHONE :</h2> 
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+<p>
+01234 645 760
+</p>
+<br>
+<h2>
+EMAIL:
+</h2>
+<p>
+thestudycenterlib1@gmail.com
+</p>
+<br>
+<h1>YOUR REFERENCE
+</h1>
+<form>
+<h2>ENTER YOUR NAME
+</h2>
+<input type="text" id="mytext">
+<h2>ENTER YOUR EMAIL</h2>
+<input type="text">
+<h2>ENTER YOUR CONTACT NUMBER</h2>
+<input type="text">
+<h2>FEEDBACK</h2>
+<textarea rows=5 cols=50 wrap="hard">
+</textarea>
+<br>
+<input type="reset" value="reset">
+<input type="button" onclick="myFunction()"  value="submit">
+<h1 id="demo"></h1>
+</form>
+</center>
+</body>
+</html>
+
